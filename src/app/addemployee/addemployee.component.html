@@ -1,0 +1,32 @@
+<div class="col-md-6 offset-md-3">
+<h3>create employee</h3>
+<form (ngSubmit)="onsubmit()">
+  <div class="form-group">
+    <label>first name</label>
+    <input type="text" class="form-control" id="firstname" 
+    [(ngModel)]="employee.firstname" name="firstname">
+ </div>
+ <br>
+ <div class="form-group">
+  <label>last name</label>
+  <input type="text" class="form-control" id="lastname" 
+  [(ngModel)]="employee.lastname" name="lastname">
+</div>
+<br>
+<div class="form-group">
+  <label>city</label>
+  <input type="text" class="form-control" id="city" 
+  [(ngModel)]="employee.city" name="city">
+</div>
+<br>
+<div class="form-group">
+  <label>email</label>
+  <input type="email" class="form-control" id="email" 
+  [(ngModel)]="employee.email" name="email">
+</div>
+<br>
+
+<button class="btn btn-success" type="submit">submit</button>
+
+</form>
+</div>
