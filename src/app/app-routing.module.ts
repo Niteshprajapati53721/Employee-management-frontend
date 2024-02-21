@@ -8,6 +8,8 @@ import { DeleteemployeeComponent } from './deleteemployee/deleteemployee.compone
 import { EmployeedetailsComponent } from './employeedetails/employeedetails.component';
 import { FindComponent } from './find/find.component';
 import { EmployeebynameComponent } from './employeebyname/employeebyname.component';
+import { ErrorpageComponent } from './errorpage/errorpage.component';
+
 
 
 

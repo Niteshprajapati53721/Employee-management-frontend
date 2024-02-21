@@ -15,7 +15,9 @@ import {FormsModule} from '@angular/forms';
 import { SaveemployeeComponent } from './saveemployee/saveemployee.component';
 import { FindComponent } from './find/find.component';
 import { EmployeebynameComponent } from './employeebyname/employeebyname.component';
-import { EmployeeService } from './employee.service'; 
+import { EmployeeService } from './employee.service';
+import { ErrorpageComponent } from './errorpage/errorpage.component';
+
 
 
 
@@ -29,7 +31,9 @@ import { EmployeeService } from './employee.service';
    DeleteemployeeComponent,
    SaveemployeeComponent,
    FindComponent,
-   EmployeebynameComponent
+   EmployeebynameComponent,
+   ErrorpageComponent,
+  
 
   
   ],
